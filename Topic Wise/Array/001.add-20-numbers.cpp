@@ -11,7 +11,7 @@ int main()              // Main function
     for(int i=0;i<20;i++){
         cout<<"Enter number "<<i+1<<"-\> ";
         cin>>num[i];                // Accepts a number
-        sum=sum+num[i];             // Add the every new number every time
+        sum+=num[i];             // Add the every new number every time
     }
 
     // Prints the reasult
